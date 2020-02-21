@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.container {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+p {
+padding: 20px;
+text-align: center;
+font-size: 16px;
+line-height: 22px;
+}
+
+.box {
+min-width: 200px;
+display: flex;
+flex: 1;
+flex-direction: column;
+align-items: center;
+background-color: #F6F6F6;
+margin: 0 20px;
+}
+
+.icon {
+padding-top: 40px;
+width: 80px;
+}
+
+.menu {
+display: flex;
+padding: 0;
+margin: 0;
+list-style: none;
+margin-left: 20px;
+}
+
+.menu a {
+display: block;
+text-decoration: none;
+padding: 20px 20px;
+margin-left: -1px;
+border: 1px solid #F6F6F6;
+color: #7C7C7C;
+}
+
+.menu a:hover {
+background-color: #7C7C7C;
+color: white;
+}
+
+button {
+height: 32px;
+padding: 0;
+margin: 0;
+margin-left: 20px;
+margin-top: 20px;
+border: 0;
+border-radius: 2px;
+box-shadow: 0 1px 4px 0 rgba(13, 21, 26, 0.12), 0 1px 2px 0 rgba(13, 21, 26, 0.12);
+background-color: white;
+}
+
+.button-content {
+display: flex;
+align-items: center;
+}
+
+.line {
+width: 1px;
+height: 32px;
+background-color: #e0e0e0;
+}
+
+.button-icon {
+width: 32px;
+height: 32px;
+}
+
+.button-icon img {
+width: 16px;
+height: 16px;
+margin: 8px;
+
+}
+
+.button-text {
+font-family: Roboto;
+font-size: 14px;
+line-height: 20px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+color: #3e4b52;
+margin: 0 12px;
+}
+
+button:hover {
+box-shadow: 0 4px 12px 0 rgba(13, 21, 26, 0.12), 0 2px 4px 0 rgba(13, 21, 26, 0.12);
+cursor: pointer;
+}
+
+button:focus{
+box-shadow: 0 1px 2px 0 rgba(13, 21, 26, 0.12);
+}
+
+.button-text:hover {
+color: #111314;
+}
